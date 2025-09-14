@@ -1,7 +1,6 @@
 import time
 class Atm:
 
-    #constructor(special function)->superpower ->dont need to call the constructor function it gets implemented with the help of object only
     def __init__(self):
       self.pin = ''
       self.balance = 0
@@ -65,7 +64,6 @@ class Atm:
           new_pin = int(input("enter new pin" ))
           new_pin = self.pin
           print("Pin changed successfully")
-          # let him change the pin
           self.menu()
        else:
           print("try again") 
@@ -111,6 +109,7 @@ obj = Atm()
        
                            
                       
+
 
 
 
